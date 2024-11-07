@@ -1,0 +1,236 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background: url(../img/header_bg.jpg) no-repeat center center / cover;
+    height: 700px;
+    width: 100%; 
+}
+
+.header_block{
+    height: 500px;
+    width: 1110px;
+    margin: auto;
+}
+
+header .header_block nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_block nav ul{
+    display: flex;
+    list-style: none;
+}
+
+.header_block nav .logo{
+    font-family: 'Arial';
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-top: 22px;
+}
+
+.header_block nav ul li a{
+    font-family: Arial;
+    color: grey;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 22px 28px;
+    display: block;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.header_block nav ul li a:hover{
+    background: grey;
+    color: #ffffff;
+}
+
+.header_block .block-text{
+    font-family: 'Robota Bold';
+    margin-top: 100px;
+}
+
+.header_block .block-text h1{
+    font-family: 'Robota Bold';
+    color:#404040;
+    font-size: 70px;
+    margin-top: 36px;
+}
+
+.header_block .block-text p{
+    font-family: 'Robota Bold';
+    color: #70869d;
+    font-size: 50px;
+}
+
+/* // section // */
+/* block-top */
+
+.section-block{
+    max-width: 1110px;
+    margin: auto;
+}
+
+.section-block .block-top{
+    padding: 100px 0;
+    max-width: 1110px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.section-block .block-top .block-in{
+    display: flex;
+}
+
+.section-block .block-top .block-in img{
+    width: 255px;
+    height: 255px;
+}
+
+.section-block .block-top .block-in .text-block{
+   width: 245px;
+   height: 255px;
+   margin-left: 30px;
+   color: #96a6b7;
+}
+
+.section-block .block-top .block-in .text-block h2{
+    margin-top: 20px;
+    margin-bottom: 6px;
+    font-size: 18px;
+    color: #1f3750;
+}
+
+/* block-article */
+
+.section-block .block-article{
+    display: flex;
+    justify-content: space-between;
+    background: #f3f9ff;
+    height: 500px;
+    padding: 45px 28px;
+    flex-flow: row wrap;
+}
+
+.section-block .block-article .block-out{
+    width: 200px;
+    height: 457px;
+}
+
+.section-block .block-article .block-out .block-out-text{
+    height: 150px;
+    width: 200px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+}
+
+.section-block .block-article .block-out .block-out-text p{
+    margin-bottom: 30px;
+    font-family: 'Roboto Light';
+    font-size: 16px;
+    color: #70869d;
+}
+
+.section-block .block-article .block-out .block-out-text .link{
+    font-family: 'Roboto Bold';
+    color: #1f3750;
+    font-weight: bold;
+}
+
+.section-block .block-article .block-out h3{
+    font-family: 'Roboto Bold';
+    font-weight: bold;
+    font-size: 16px;
+    color: #1f3750;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+/* block-follow */
+
+.block-follow{
+    width: 1110px;
+    height: 417px;
+}
+
+.block-follow h3{
+    font-family: 'Roboto Bold';
+    font-size: 20px;
+    color: #1f3750;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 53px;
+}
+
+.block-follow .class .follow-text{
+    font-family: 'Roboto Regular';
+    font-size: 20px;
+    color: #70869d;
+}
+
+.block-follow .class ul{
+    list-style: none;
+}
+
+.block-follow .class ul li a:hover{
+    color: #0092b6;
+}
+
+.block-follow .class{
+    display: flex; 
+    margin-right: 77px;
+}
+
+.block-follow .class1{
+    margin-right: 111px;
+}
+
+/* footer */
+
+footer{
+    padding: 40px 0;
+    max-width: 1919px;
+    max-height: 100px;
+    background: #f3f9ff;
+}
+
+footer .footer-block{
+    max-width: 1110px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footer-block .foot .logo2{
+    font-family: 'Roboto Bold';
+    font-size: 20px;
+    color: #444444;
+    text-decoration: none;
+}
+
+footer .footer-block .foot ul{
+    list-style: none;
+    display: flex;
+    align-items: stretch;
+}
+
+footer .footer-block .foot{
+    justify-content: space-between;
+   
+}
+
+.footer-block .foot ul li a{
+    font-family: 'Roboto Regular';
+    font-size: 14px;
+    color: #444444;
+    text-decoration: none;
+}
+
+
